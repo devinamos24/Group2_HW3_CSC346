@@ -24,8 +24,8 @@ DocumentBuilder builder = factory.newDocumentBuilder();
 You may also point out that DocumentBuilders have to be created by DocumentBuilderFactories. Once you have your builder, it's time to pull your document into java. To do this, you need to pass your xml File object into the DocumentBuilder. It will look something like this:
 
 ```java
-File xmlFile = new File("link/to/your/file.xml")
-Document document = builder.parse(xmlFile)
+File xmlFile = new File("link/to/your/file.xml");
+Document document = builder.parse(xmlFile);
 ```
 
 Now that your xml file is inside of java, you can access all the data! You can even alter the document's content and send it back. In the next section, we will use an example to show off each element of a DOM xml tree.
