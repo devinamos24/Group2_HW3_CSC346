@@ -9,10 +9,10 @@ Listed alphabetically
 * Person 3, writer [LinkedIn](.) [Github](.) [Instagram](.)
 * Person 4, coder and assistant librarian [Github](.)
 
-## Your task
+## Our task
 
-A very, very brief summary
+This repo is a simple series of tutorials on how to read and write XML files using the DOM java library.
 
-## Link to your repo
+## Link to this repo
 
 [Link](https://github.com/devina1/Group2_HW3_CSC346)
