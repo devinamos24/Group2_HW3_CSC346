@@ -10,8 +10,8 @@ In DOM, there are five main interfaces you will interact with
 
 - Node - A basic data type most objects inherit
 - Element - A representation of an xml header
-- Attribute (Attr) - A subheader or nested subheader
-- Text - The content of the Element or Attribute
+- Attribute (Attr) - A value assigned within the header
+- Text - The content of the Element
 - Document - The entire xml document represented as a tree
 
 In DOM, building the document is not done by the Document class itself, instead we use DocumentBuilder objects. Instantiating a document builder looks like this:
