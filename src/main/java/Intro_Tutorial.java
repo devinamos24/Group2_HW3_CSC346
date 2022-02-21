@@ -32,6 +32,7 @@ public class Intro_Tutorial {
             System.out.println("port = " + root.getElementsByTagName("port").item(0).getTextContent());
             System.out.println("user = " + root.getElementsByTagName("user").item(0).getTextContent());
             System.out.println("password = " + root.getElementsByTagName("password").item(0).getTextContent());
+            System.out.println("password xhint = " + root.getElementsByTagName("password").item(0).getAttributes().getNamedItem("xhint").getTextContent());
         } catch (IOException | SAXException e){
             System.out.println(e.getMessage());
             e.printStackTrace();
