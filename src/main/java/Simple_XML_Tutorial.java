@@ -24,7 +24,7 @@ public class Simple_XML_Tutorial {
         }
 
         try {
-            File xmlFile = new File("src/main/resources/Intro_Tutorial.xml");
+            File xmlFile = new File("src/main/resources/Simple_XML_Tutorial.xml");
             Document document = builder.parse(xmlFile);
 
             // START TUTORIAL HERE!!!
