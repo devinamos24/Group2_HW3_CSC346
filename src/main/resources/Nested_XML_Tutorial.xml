@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml-stylesheet href="latest_ob.xsl" type="text/xsl"?>
+<current_observation version="1.0"
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:noNamespaceSchemaLocation="http://www.weather.gov/view/current_observation.xsd">
+	<credit>NOAA's National Weather Service</credit>
+	<credit_URL>https://weather.gov/</credit_URL>
+	<image>
+		<url>https://weather.gov/images/xml_logo.gif</url>
+		<title>NOAA's National Weather Service</title>
+		<link>https://www.weather.gov</link>
+	</image>
+	<suggested_pickup>15 minutes after the hour</suggested_pickup>
+	<suggested_pickup_period>60</suggested_pickup_period>
+	<location>St. Joseph, Rosecrans Memorial Airport, MO</location>
+	<station_id>KSTJ</station_id>
+	<latitude>39.76806</latitude>
+	<longitude>-94.90917</longitude>
+	<observation_time>Last Updated on Feb 21 2022, 10:53 pm CST</observation_time>
+        <observation_time_rfc822>Mon, 21 Feb 2022 22:53:00 -0600</observation_time_rfc822>
+	<weather>Mostly Cloudy</weather>
+	<temperature_string>33.0 F (0.6 C)</temperature_string>
+	<temp_f>33.0</temp_f>
+	<temp_c>0.6</temp_c>
+	<relative_humidity>75</relative_humidity>
+	<wind_string>West at 5.8 MPH (5 KT)</wind_string>
+	<wind_dir>West</wind_dir>
+	<wind_degrees>290</wind_degrees>
+	<wind_mph>5.8</wind_mph>
+	<wind_kt>5</wind_kt>
+	<pressure_string>1007.7 mb</pressure_string>
+	<pressure_mb>1007.7</pressure_mb>
+	<pressure_in>29.75</pressure_in>
+	<dewpoint_string>26.1 F (-3.3 C)</dewpoint_string>
+	<dewpoint_f>26.1</dewpoint_f>
+	<dewpoint_c>-3.3</dewpoint_c>
+	<windchill_string>28 F (-2 C)</windchill_string>
+      	<windchill_f>28</windchill_f>
+      	<windchill_c>-2</windchill_c>
+	<visibility_mi>9.00</visibility_mi>
+ 	<icon_url_base>https://forecast.weather.gov/images/wtf/small/</icon_url_base>
+	<two_day_history_url>https://www.weather.gov/data/obhistory/KSTJ.html</two_day_history_url>
+	<icon_url_name>nbkn.png</icon_url_name>
+	<ob_url>https://www.weather.gov/data/METAR/KSTJ.1.txt</ob_url>
+	<disclaimer_url>https://www.weather.gov/disclaimer.html</disclaimer_url>
+	<copyright_url>https://www.weather.gov/disclaimer.html</copyright_url>
+	<privacy_policy_url>https://www.weather.gov/notice.html</privacy_policy_url>
+</current_observation>
