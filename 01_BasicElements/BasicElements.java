@@ -14,16 +14,10 @@ public class BasicElements {
 
         // We already know how to pull information from the into tutorial so do not include this
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = null;
+        DocumentBuilder builder;
         try {
             builder = factory.newDocumentBuilder();
-        } catch (ParserConfigurationException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-            System.exit(1);
-        }
 
-        try {
             File xmlFile = new File("01_BasicElements/BasicElements.xml");
             Document document = builder.parse(xmlFile);
 
@@ -69,11 +63,10 @@ public class BasicElements {
             System.out.println(user_content);
             System.out.println(password_content);
             System.out.println(password_xhint_content);
-
-        } catch (IOException | SAXException e) {
+        } catch (ParserConfigurationException | IOException | SAXException e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
+            System.exit(1);
         }
-
     }
 }

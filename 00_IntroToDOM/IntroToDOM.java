@@ -11,7 +11,7 @@ public class IntroToDOM {
     public static void main(String[] args) {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = null;
+        DocumentBuilder builder;
         try {
             builder = factory.newDocumentBuilder();
 

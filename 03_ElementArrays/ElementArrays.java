@@ -13,17 +13,10 @@ public class ElementArrays {
     public static void main(String[] args) {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = null;
+        DocumentBuilder builder;
         try {
             builder = factory.newDocumentBuilder();
-        } catch (ParserConfigurationException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-            System.exit(1);
-        }
 
-
-        try {
             File xmlFile = new File("03_ElementArrays/ElementArrays.xml");
             Document document = builder.parse(xmlFile);
             document.getDocumentElement().normalize();
@@ -47,9 +40,10 @@ public class ElementArrays {
 //                System.out.println(currentitem.getElementsByTagName("state").item(0).getTextContent());
 //            }
 
-        } catch (IOException | SAXException e) {
+        } catch (ParserConfigurationException | IOException | SAXException e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
+            System.exit(1);
         }
     }
 }

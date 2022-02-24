@@ -11,26 +11,20 @@ public class NestedElements {
     public static void main(String[] args) {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = null;
+        DocumentBuilder builder;
         try {
             builder = factory.newDocumentBuilder();
-        } catch (ParserConfigurationException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-            System.exit(1);
-        }
 
-
-        try {
             File xmlFile = new File("02_NestedElements/NestedElements.xml");
             Document document = builder.parse(xmlFile);
             document.getDocumentElement().normalize();
 
             // TODO: add code for parsing nested xml document
 
-        } catch (IOException | SAXException e) {
+        } catch (ParserConfigurationException | IOException | SAXException e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
+            System.exit(1);
         }
     }
 }
