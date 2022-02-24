@@ -9,7 +9,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 
-public class Simple_XML_Tutorial {
+public class BasicElements {
     public static void main(String[] args) {
 
         // We already know how to pull information from the into tutorial so do not include this
@@ -24,7 +24,7 @@ public class Simple_XML_Tutorial {
         }
 
         try {
-            File xmlFile = new File("Simple XML Tutorial/Simple_XML_Tutorial.xml");
+            File xmlFile = new File("01_BasicElements/BasicElements.xml");
             Document document = builder.parse(xmlFile);
 
             // START TUTORIAL HERE!!!
