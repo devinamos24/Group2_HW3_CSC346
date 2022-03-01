@@ -21,8 +21,6 @@ public class ElementArrays {
             File xmlFile = new File("03_ElementArrays/ElementArrays.xml");
             Document document = builder.parse(xmlFile);
 
-            // TODO: add code for parsing array xml document
-
             // First we need to grab the node that holds the array
             // In this example that happens to be the root node
             Element root = document.getDocumentElement();
