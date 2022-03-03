@@ -60,25 +60,25 @@ This common practice stores the root element and allows us to use the node insta
 ```java
 Element root = document.getDocumentElement();
 ```
-This root element contains the entire xml document as sub elements. There are already two methods for searching the tree for a given element/s.
+This root element contains the entire xml document as sub elements. There are already two methods for searching the tree for a given element/s. Both of these methods return an element list. If we want a particular element use item(int index). Otherwise the GetElementsByID/Tag will return a list. If grabbing a particular element
 ```java
-Element myElement = document.GetElementById("elementId");
+Element firstChildOfRoot = root.getFirstChild()
 
 NodeList someElements = document.GetElementsByTag("tagname");
+
+Element myElement = document.GetElementsById("elementId").item(0);
 ```
 There are also multiple methods for grabbing child nodes of a node.
 [(Method List)](https://www.programcreek.com/java-api-examples/?class=org.w3c.dom.Document&method=getElementsByTagName)
-such as this.
+such as these.
 
-``` java
-Element firstChildOfRoot = root.getFirstChild()
-```
 It is sometimes necessary to grab the InnerText of an element or attribute of a tag.
 
 To do this we can use these methods
 ```java
 //gets the TextCOntent of the element host. 
 String host_content = host.getTextContent();
+//get the tag, with another line
 ```
 As for attributes first we take all the attributes and the specify which. Because the method getNamedItem() returns a node object we have to make sure it is cast as an attribute.
 ```java
@@ -86,7 +86,9 @@ Attr password_xhint = (Attr) password.getAttributes().getNamedItem("xhint");
 ```
 
 
+mention casting the first time your grab an element.
 
+fix getElement -> getElements
 
 node.getNodeType()
 
