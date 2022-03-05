@@ -50,7 +50,7 @@ Node node = root.getFirstChild();
 In the DOM parser everything is referred to as a node. Element nodes do not have a text value.
 
 As a result of this, the text value of elements are stored in child nodes like previously mentioned. This node is called a text node.
-Unfortunately, when navigating these nodes, `forEach()` loops are not available for node nist objects so we must implement a do while loop in order to include 
+Unfortunately, when navigating these nodes, `forEach()` loops are not available for node list objects so we must implement a do while loop in order to include 
 the first element we specified before.
 
 It is essential that we obtain the name of the node, depending on its type. In this example we have already specified the node type as the child node above.
