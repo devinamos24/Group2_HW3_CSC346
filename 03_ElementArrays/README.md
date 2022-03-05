@@ -76,10 +76,10 @@ do {
 } while ((node = node.getNextSibling()) != null); 
 ```
 `Note:` Many browsers will treat empty white-spaces or new lines as text nodes, Internet Explorer will not.
-This causes a problem when using the properties: firstChild, lastChild, nextSibling, previousSibling within your code. 
+This causes a problem when using the properties: firstChild, lastChild, nextSibling, and previousSibling within your code. 
 To avoid navigating to empty text nodes, we use the if statement to check the node type.
 
-`Additional Notes:` It is important to tread carefully with DOM. This is because the nodes don't always have an important meaning!
+`Additional Notes:` It is important to tread carefully with DOM. Nodes don't always have an important meaning!
 Like stated above, there are nodes between each element that are there just for the newline character.
 
 ## Resources
