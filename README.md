@@ -6,7 +6,7 @@ Listed alphabetically
 
 * Devin Amos, coder and librarian [LinkedIn](https://www.linkedin.com/in/devin-amos-395b93231/) [GitHub](https://github.com/devina1)
 * Max Durbin, writer [LinkedIn](https://www.linkedin.com/in/max-durbin-58b022201/) [GitHub](https://github.com/MaxDurbin)
-* Tristan Davis, writer [GitHub](https://github.com/trisdavis1)
+* Tristan Davis, writer [LinkedIn](https://www.linkedin.com/in/tristan-davis-8526968b/) [GitHub](https://github.com/trisdavis1)
 
 ## Our task
 
