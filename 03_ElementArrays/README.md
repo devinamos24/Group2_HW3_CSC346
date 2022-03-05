@@ -59,7 +59,7 @@ This leaves the node name. We use `getNodeName()` to check that the node name we
 ```java
 node.getNodeName().equals("state")
 ```
-In order to return a node list of elements we need to implement the `getElementsbyTagName()` method. This, with the specified tag name returns a
+In order to return a node list of elements we need to implement the `getElementsByTagName()` method. This, with the specified tag name returns a
 node list of all elements in the same order they are displayed in the source xml file.
 
 Additionally, we add the `getTextContent()` method in order to return the contents of the node and its respective decendants.
@@ -71,7 +71,7 @@ do {
       System.out.println(((Element) node).getElementsByTagName("state").item(0).getTextContent());                
       System.out.println(((Element) node).getElementsByTagName("slug").item(0).getTextContent());                
       System.out.println(((Element) node).getElementsByTagName("code").item(0).getTextContent());                
-      /. . ./
+      //. . .
     }            
 } while ((node = node.getNextSibling()) != null); 
 ```
