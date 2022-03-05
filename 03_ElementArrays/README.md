@@ -25,7 +25,7 @@ When navigating element arrays we first need to grab the node that holds the arr
 This node is referred to as the parent node. A parent node in turn refers to a xml files root element as seen in the figure above. 
 It is important to note that ALL nodes have exactly one parent node.
 
-In this example the following code navigates to the parent node or root node of <states> and normalizes it:
+In this example the following code navigates to the parent node or root node of `<states>` and normalizes it:
 ```java
 Element root = document.getDocumentElement();
 root.normalize();
@@ -39,7 +39,7 @@ The first child element is the first element within a parent node/root element a
 
 Getting the first child element allows us to parse and navigate each sibling after the first child much similar to a linked list.
 
-The following navigates to the first element node of the first <state>:
+The following navigates to the first element node of the first `<state>`:
 ```java
 Node node = root.getFirstChild();
 ```
