@@ -84,4 +84,5 @@ Like stated above, there are nodes between each element that are there just for 
 
 ## Resources
 [Navigating](https://www.w3schools.com/xml/dom_nodes_navigate.asp)
+    
 [Get Values](https://www.w3schools.com/xml/dom_nodes_get.asp)
