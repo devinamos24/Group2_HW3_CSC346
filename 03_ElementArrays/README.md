@@ -11,7 +11,7 @@ In the Document Object Model, node relationships are defined as properties to th
 * nextSibling
 * previousSibling
 
-## Example Node Tree:
+#### Example Node Tree:
 
 ![NodeTree](https://www.w3schools.com/xml/navigate.gif)
 > The image represents a part of the node tree and the relationship between nodes in an example xml
@@ -75,8 +75,7 @@ do {
     }            
 } while ((node = node.getNextSibling()) != null); 
 ```
-`Note:` Many browsers will treat empty white-spaces or new lines as text nodes, Internet Explorer will not.
-This causes a problem when using the properties: firstChild, lastChild, nextSibling, and previousSibling within your code. 
+`Note:` Strangely there are newline nodes between each element when using DOM properties within your code. 
 To avoid navigating to empty text nodes, we use the if statement to check the node type.
 
 `Additional Notes:` It is important to tread carefully with DOM. Nodes don't always have an important meaning!
