@@ -20,7 +20,7 @@ For this example, we will have an image element with nested descriptive elements
 Our goal is to extract the title element that is nested in the image element.
 We will each method assuming that we already have the root node of the entire document <current_observation>.
 
-##Method 1: Entire document search
+## Method 1: Entire document search
 
 The first method is a quick and dirty way of finding the element.
 However, this method will not work for complex documents with duplicate tag names!
@@ -47,7 +47,7 @@ While this method is great for quickly finding the element, it will not work if 
 ```
 
 If your document has this problem, method 2 would be a better option.
-##Method 2: Parent search
+## Method 2: Parent search
 
 This method takes a little more preparation, but is a lot more accurate.
 
